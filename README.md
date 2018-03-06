@@ -1,6 +1,7 @@
 # target
 consume .net webservice using php soap client
 # soap request
+```
 <?xml version="1.0" encoding="UTF-8"?>
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:mob="https://www.mobile88.com" xmlns:mhp="http://schemas.datacontract.org/2004/07/MHPHGatewayService.Model">
     <soapenv:Header/>
@@ -25,3 +26,4 @@ consume .net webservice using php soap client
         </mob:EntryPageFunctionality>
     </soapenv:Body>
 </soapenv:Envelope>
+```
